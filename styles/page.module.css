@@ -1,0 +1,26 @@
+.main{
+  background-color: rgb(24, 5, 5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 75vh;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  border-color: goldenrod;
+  border-style:double;
+}
+
+.emailText, .passwordText{
+  width: 75%;
+  height: 7%;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  color: gold;
+}
