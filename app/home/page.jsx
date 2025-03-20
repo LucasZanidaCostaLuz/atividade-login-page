@@ -10,6 +10,7 @@ export default function Home() {
         <input type="text" placeholder="put your email here" required maxLength={100} className={styles.emailText} />
         <h3> Password</h3>
         <input type="password" placeholder="put your password here" className={styles.passwordText}/>
+        <button className={styles.button} ><a href="/perfil">Entrar</a></button>
         <a className={styles.link} href="/sign-up">Registrar-se</a>
       </div>
   )

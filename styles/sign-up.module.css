@@ -1,3 +1,9 @@
+@keyframes goldanimation{
+    0% {border-color: yellow; color: yellow;}
+    50% {border-color: orange; color: orange;}
+    100% {border-color: goldenrod; color: goldenrod;}
+}
+
 .main{
     background-color: rgb(24, 5, 5);
     color: white;
@@ -9,7 +15,10 @@
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
-    border-color: goldenrod;
+    animation-name: goldanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     border-style:double;
   }
   
