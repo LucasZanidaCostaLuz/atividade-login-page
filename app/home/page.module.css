@@ -22,14 +22,21 @@
   border-style:double;
 }
 
-.emailText, .passwordText{
-  width: 75%;
-  height: 7%;
-  border-radius: 0.5rem;
-  text-align: center;
-}
-
 .link{
   text-decoration: none;
   color: gold;
+}
+
+.button{
+  background-color: goldenrod;
+  color: black;
+  width: 20vh;
+  height: 5vh;
+  border-radius: 1rem;
+}
+
+.button a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
 }

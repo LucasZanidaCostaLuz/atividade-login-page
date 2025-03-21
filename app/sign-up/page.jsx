@@ -1,7 +1,8 @@
 "use client"
 
+import Input from "@/component/input";
 import { useState } from "react";
-import styles from "../../styles/sign-up.module.css";
+import styles from "../sign-up/sign-up.module.css";
 
 export default function Registrar() {
 
@@ -33,8 +34,7 @@ export default function Registrar() {
   return (
       <div className={styles.main}>
         <h1 className={styles.main_title}> Registro </h1>
-        <h3> email Adress </h3>
-        <input type="text" placeholder="put your email here" required maxLength={100} className={styles.emailText} />
+        <Input content={"Email Adress"}></Input>
         <h3> Password</h3>
         <input type="password"  
         placeholder="put your password here"

@@ -1,6 +1,6 @@
 "use client"
 
-import styles from "../../styles/perfil.module.css"
+import styles from "../perfil/perfil.module.css"
 
 export default function Perfil(){
     return(
@@ -17,7 +17,7 @@ export default function Perfil(){
                 <div className={styles.especificacao}>
                     <div>
                         <h1> Cursos feitos </h1>
-                        <ul>
+                        <ul className="ul">
                             <li>Curso Programação em nuvem da google</li>
                             <li>Curso de digitação da MicroCamp</li>
                             <li>Curso de informática da MicroCamp</li>
@@ -27,7 +27,7 @@ export default function Perfil(){
                     </div>
                     <div>
                         <h1> Preferências </h1>
-                        <ul>
+                        <ul className="ul">
                             <li>Back-End</li>
                             <li>Front-end</li>
                         </ul>
